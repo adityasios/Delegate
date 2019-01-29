@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		40E015D1220080A900072174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E015D0220080A900072174 /* AppDelegate.swift */; };
-		40E015D3220080A900072174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E015D2220080A900072174 /* ViewController.swift */; };
-		40E015D6220080A900072174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E015D4220080A900072174 /* Main.storyboard */; };
 		40E015D8220080AE00072174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E015D7220080AE00072174 /* Assets.xcassets */; };
 		40E015DB220080AE00072174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E015D9220080AE00072174 /* LaunchScreen.storyboard */; };
+		40E015E3220080E500072174 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 40E015E2220080E500072174 /* README.md */; };
+		40E015E5220081B600072174 /* ClassAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E015E4220081B600072174 /* ClassAVC.swift */; };
+		40E015E7220081BC00072174 /* ClassBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E015E6220081BB00072174 /* ClassBVC.swift */; };
+		40E015E9220081E500072174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E015E8220081E500072174 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40E015CD220080A900072174 /* Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E015D0220080A900072174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40E015D2220080A900072174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40E015D5220080A900072174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40E015D7220080AE00072174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E015DA220080AE00072174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40E015DC220080AE00072174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E015E2220080E500072174 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		40E015E4220081B600072174 /* ClassAVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassAVC.swift; sourceTree = "<group>"; };
+		40E015E6220081BB00072174 /* ClassBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassBVC.swift; sourceTree = "<group>"; };
+		40E015E8220081E500072174 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		40E015C4220080A900072174 = {
 			isa = PBXGroup;
 			children = (
+				40E015E2220080E500072174 /* README.md */,
 				40E015CF220080A900072174 /* Delegate */,
 				40E015CE220080A900072174 /* Products */,
 			);
@@ -55,8 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				40E015D0220080A900072174 /* AppDelegate.swift */,
-				40E015D2220080A900072174 /* ViewController.swift */,
-				40E015D4220080A900072174 /* Main.storyboard */,
+				40E015E4220081B600072174 /* ClassAVC.swift */,
+				40E015E6220081BB00072174 /* ClassBVC.swift */,
+				40E015E8220081E500072174 /* Main.storyboard */,
 				40E015D7220080AE00072174 /* Assets.xcassets */,
 				40E015D9220080AE00072174 /* LaunchScreen.storyboard */,
 				40E015DC220080AE00072174 /* Info.plist */,
@@ -124,7 +130,8 @@
 			files = (
 				40E015DB220080AE00072174 /* LaunchScreen.storyboard in Resources */,
 				40E015D8220080AE00072174 /* Assets.xcassets in Resources */,
-				40E015D6220080A900072174 /* Main.storyboard in Resources */,
+				40E015E3220080E500072174 /* README.md in Resources */,
+				40E015E9220081E500072174 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +142,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E015D3220080A900072174 /* ViewController.swift in Sources */,
 				40E015D1220080A900072174 /* AppDelegate.swift in Sources */,
+				40E015E7220081BC00072174 /* ClassBVC.swift in Sources */,
+				40E015E5220081B600072174 /* ClassAVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		40E015D4220080A900072174 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40E015D5220080A900072174 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		40E015D9220080AE00072174 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,11 +285,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPK4XC758S;
 				INFOPLIST_FILE = Delegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test.Delegate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,11 +304,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPK4XC758S;
 				INFOPLIST_FILE = Delegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test.Delegate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
